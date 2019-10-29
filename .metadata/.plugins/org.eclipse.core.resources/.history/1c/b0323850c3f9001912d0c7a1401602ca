@@ -1,0 +1,19 @@
+package com.pkosnik.patterns.flyweight;
+
+public class Circel implements Shape {
+	private String lable;
+	private int radius;
+	private String fillColor;
+	private String lineColor;
+
+	public Circle() {
+		this.lable = "Circle";
+	}
+	@Override
+	public void draw() {
+		System.out.println("Drawing a " + this.lable + " with radious " + this.radius + " Fill color " + this.fillColor
+				+ " Line color " + this.lineColor);
+
+	}
+
+}

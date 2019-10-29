@@ -1,0 +1,11 @@
+package com.pkosnik.patterns.templatemethod;
+
+public class ComputerManfacturer {
+	public void buildComputer() {
+		
+	}
+	abstract void addHardDisk();
+	abstract void addRam();
+	abstract void addKeyboard();
+
+}

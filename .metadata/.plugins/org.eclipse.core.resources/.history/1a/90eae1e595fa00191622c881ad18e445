@@ -1,0 +1,11 @@
+package com.pkosnik.patterns.ioc;
+
+public class CreditCardImpl implements CreditCard {
+
+	@Override
+	public void makePayment() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

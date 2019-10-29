@@ -1,0 +1,16 @@
+package com.pkosnik.patterns.abstractfactory;
+
+public class Test {
+
+	public static void main(String[] args) {
+		DaoAbstractFactory dap = null;
+		dap = DaoFactoryProducer.produce("xml");
+		dap.createDeo("emp");
+		dap.createDeo("dep");
+		
+		dap = DaoFactoryProducer.produce("db");
+		dap.createDeo("emp");
+		dap.createDeo("dep");
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.pkosnik.patterns.flyweight;
+
+public class PaintApp {
+	public void render(int numberOfShapes) {
+		Shape[] shapes = new Shape[numberOfShapes + 1];
+		for (int i = 0; i < shapes.length; i++) {
+			if (i % 2 == 0) {
+				shapes[i] = new Circle();
+				shapes[i].draw(i, "red", "white");
+			} else {
+				shapes[i] = new Rectangle();
+				/*
+				 * ((Rectangle)shapes[i]).setLenght(i);
+				 * ((Rectangle)shapes[i]).setBreadth(i+1);
+				 * ((Rectangle)shapes[i]).setFillStyle("dotted");
+				 */
+				shapes[i].draw(i, i + 1, "dotted");
+			}
+		}
+
+	}
+
+}

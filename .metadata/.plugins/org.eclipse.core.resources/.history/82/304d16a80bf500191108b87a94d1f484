@@ -1,0 +1,11 @@
+package com.pkosnik.patterns.abstractfactory;
+
+public class XMLDaoFactory extends DaoAbstractFactory {
+
+	@Override
+	public Dao createDeo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.pkosnik.patterns.templatemethod;
+
+public class DesktopManfacturer extends ComputerManfacturer {
+
+	@Override
+	void addHardDisk() {
+		System.out.println("Desktop disk added");
+	}
+
+	@Override
+	void addRam() {
+		System.out.println("Desktop Ram added");
+	}
+
+	@Override
+	void addKeyboard() {
+		System.out.println("Desktop Keyboard added");
+	}
+
+}

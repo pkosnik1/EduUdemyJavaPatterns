@@ -1,0 +1,6 @@
+package com.pkosnik.patterns.flyweight;
+
+public interface Shape {
+	void draw();
+
+}

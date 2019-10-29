@@ -1,0 +1,6 @@
+package com.pkosnik.patterns.abstractfactory;
+
+public abstract class DaoAbstractFactory {
+	public abstract Deo createDeo();
+
+}

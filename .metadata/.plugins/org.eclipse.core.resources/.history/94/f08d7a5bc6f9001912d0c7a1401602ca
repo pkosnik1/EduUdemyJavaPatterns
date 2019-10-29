@@ -1,0 +1,5 @@
+package com.pkosnik.patterns.flyweight;
+
+public class ShapeFactory {
+
+}

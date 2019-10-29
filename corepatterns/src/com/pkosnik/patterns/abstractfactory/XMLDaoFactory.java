@@ -1,0 +1,16 @@
+package com.pkosnik.patterns.abstractfactory;
+
+public class XMLDaoFactory extends DaoAbstractFactory {
+
+	@Override
+	public Dao createDeo(String type) {
+		Dao d = null;
+		if (type.equals("emp")) {
+			d = new XMLEmpDao();
+		} else if (type.equals("dep")) {
+			d = new XMLDepDao();
+		}
+		return d;
+	}
+
+}

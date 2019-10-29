@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IocApplicationTests" project="Ioc" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.pkosnik.patterns.ioc.IocApplicationTests" time="0.312" displayname="IocApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.pkosnik.patterns.ioc.IocApplicationTests]">
+    <testcase name="testPayment" classname="com.pkosnik.patterns.ioc.IocApplicationTests" time="0.312" displayname="testPayment()" uniqueid="[engine:junit-jupiter]/[class:com.pkosnik.patterns.ioc.IocApplicationTests]/[method:testPayment()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,11 @@
+package com.pkosnik.patterns.decorator;
+
+public class PlainPizza implements Pizza {
+
+	@Override
+	public void bake() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

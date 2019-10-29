@@ -1,0 +1,9 @@
+package com.pkosnik.patterns.adapter;
+
+public class WeatherUI {
+	public void showTemperature(int zipcode) {
+		WeatherFinder wf = new WeatherFinderImpl();
+		wf.find(city)
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.SheetCollate"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.flyweight.PaintApp"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.flyweight.Shape"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.flyweight.Circle"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.flyweight.Rectangle"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.flyweight.ShapeFactory"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.command.Command"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.command.Television"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.command.RemoteControl"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.command.OnCommand"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.decorator.PizzaDecorator"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.decorator.Pizza"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.decorator.PlainPizza"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.decorator.CheesePizzaDecorator"/>
+<fullyQualifiedTypeName name="com.pkosnik.patterns.decorator.VeggiePizzaDecorator"/>
+</qualifiedTypeNameHistroy>

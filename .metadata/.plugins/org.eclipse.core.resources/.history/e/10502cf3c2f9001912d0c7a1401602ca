@@ -1,0 +1,11 @@
+package com.pkosnik.patterns.flyweight;
+
+public class Circel implements Shape {
+
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

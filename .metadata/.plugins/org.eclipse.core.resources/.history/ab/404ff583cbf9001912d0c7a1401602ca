@@ -1,0 +1,5 @@
+package com.pkosnik.patterns.decorator;
+
+public interface Pizza {
+
+}

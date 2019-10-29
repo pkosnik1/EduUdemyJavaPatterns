@@ -1,0 +1,48 @@
+package com.pkosnik.patterns.flyweight;
+
+public class Rectangle implements Shape {
+	private String lable;
+	private int lenght;
+	private int breadth;
+	private String fillStyle;
+
+	public String getLable() {
+		return lable;
+	}
+
+	public void setLable(String lable) {
+		this.lable = lable;
+	}
+
+	public int getLenght() {
+		return lenght;
+	}
+
+	public void setLenght(int lenght) {
+		this.lenght = lenght;
+	}
+
+	public int getBreadth() {
+		return breadth;
+	}
+
+	public void setBreadth(int breadth) {
+		this.breadth = breadth;
+	}
+
+	public String getFillStyle() {
+		return fillStyle;
+	}
+
+	public void setFillStyle(String fillStyle) {
+		this.fillStyle = fillStyle;
+	}
+
+	@Override
+	public void draw() {
+		System.out.println("Drawing a " + this.lable + " with breadt " + this.breadth + " with langth " + this.lenght
+				+ " with fillStyle " + this.fillStyle);
+
+	}
+
+}

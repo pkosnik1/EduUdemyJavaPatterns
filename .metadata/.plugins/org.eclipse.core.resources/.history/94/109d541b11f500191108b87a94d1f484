@@ -1,0 +1,23 @@
+package com.pkosnik.patterns.templatemethod;
+
+public class DesktopManfacturer extends ComputerManfacturer {
+
+	@Override
+	void addHardDisk() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void addRam() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void addKeyboard() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.pkosnik.patterns.ioc;
+
+public class CustomerImpl implements Customer {
+	CreditCard creditCard = null;
+
+	@Override
+	public void pay() {
+		creditCard.makePayment();
+	}
+
+}

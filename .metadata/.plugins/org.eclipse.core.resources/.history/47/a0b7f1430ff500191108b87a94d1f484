@@ -1,0 +1,11 @@
+package com.pkosnik.patterns.templatemethod;
+
+public abstract class DataRenderer {
+	public void render() {
+		
+	}
+
+	public abstract String readData();
+	
+	public abstract String processData(String data);
+}
